@@ -33,7 +33,6 @@ var redCurrant = {
 // END DO NOT CHANGE ZONE
 // ##########################################################
 
-
 // Write your function here, name it `writeBerries`
 
 var writeBerries = function (berries) {
@@ -45,16 +44,16 @@ var writeBerries = function (berries) {
     document.write('<dt>Grows on a Shrub?</dt>');
     if (berry.onShrub) {
       document.write('<dd>yes</dd>');
-    }else {
+    } else {
       document.write('<dd>no</dd>');
     }
 
     document.write('<dt>Energy</dt>');
-    document.write('<dd>' + berry.energy + 'kJ' + '</dd>');
+    document.write('<dd>' + berry.energy + 'kJ</dd>');
     document.write('<dt>Carbohydrates</dt>');
-    document.write('<dd>' + berry.carbs + 'g' + '</dd>');
+    document.write('<dd>' + berry.carbs + 'g</dd>');
     document.write('<dt>Protein</dt>');
-    document.write('<dd>' + berry.protein + 'g' + '</dd>');
+    document.write('<dd>' + berry.protein + 'g</dd>');
     document.write('</dl>');
   });
 };
